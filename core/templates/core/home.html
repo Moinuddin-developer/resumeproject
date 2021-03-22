@@ -1,0 +1,60 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %} 
+<div class="mt-5">
+ <div class="text-center">
+  <img src="{% static 'core/images/mypic.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+ </div>
+ <div class="mt-5 text-white mx-5 text-justify">
+     <h3> <b class="text-white"> About Me </b> </h3>
+  <div class="px-4" style="line-height:2rem;">
+   <p style="text-indent:100px;"> My name is <b class="text-warning"> Md Moinuddin </b> and i am from Bihar, I am pursuing my <b class="text-warning"> B.TECH </b>degree in the year 2021 with <b class="text-warning"> CSE </b> stream.  </p>
+   <p>I did this course because i am interested in computer  from child hood ,and for learn computer related Kmowledge i walked perdays near about 3 km when i was 12 years old and those time i learned <b class="text-warning"> MS EXCELL , MS WORLD &nbsp;</b> and also &nbsp; <b class="text-warning"> MS POWER POINT,</b> and till yet i am working on this 2 days in a every week.</p>
+   <p> Now i feel that i am very close to my goal to be top softwere engineer , and for that i am doing my best always .</p>
+           <p> I always try to learn something new which is trending in computer related field , and this is my also one of the best hobbies.</p>
+
+   <p> Yet i am prepared own self for <b class="text-warning"> Data Science and Web Development </b> , In whch now i am fully concentrate on <b class="text-warning"> Data Science </b> for that i am working on <b class="text-warning">Python</b> and also it's Library <b class="text-warning"> Pandas , Numpy , Mtplotlib , </b> since 1 year.</p>
+   <p> For Web Development i learned<b class="text-warning"> python </b> and it's <b class="text-warning">Django  </b>frame work and till work on this using <b class="text-warning">Pycharm IDE .</b></p>
+  </div>
+ </div>
+ <div class="mt-5 text-white mx-5 text-justify">
+     <h3> <b class="text-white"> About My Family </b> </h3>
+  <div class="px-4" style="line-height:2rem;">
+   <p style="text-indent:100px;"> We are 8 in my family . &nbsp;My father is a farmer and my mother is a house wife.&nbsp; I have 5 sibblings.</p>
+  </div>
+ </div>
+ <div class="mt-5 text-white mx-5 text-justify">
+     <h3> <b class="text-white"> My Hobbies </b> </h3>
+  <div class="px-4" style="line-height:2rem;">
+     <h4 style="text-indent:100px;"> 1. Indoor game :-</h4>
+                                    <h5 style="margin-left:320px;"> (a) Chess </h5>
+                                    <h5 style="margin-left:320px;"> (a) Ludo </h5>
+  </div>
+  <div class="px-4" style="line-height:2rem;">
+     <h4 style="text-indent:100px;"> 2. Outdoor game :-</h4>
+                                    <h5 style="margin-left:320px;"> (a) cricket</h5>
+                                    <h5 style="margin-left:320px;"> (b) kabbaddi </h5>
+  </div>
+ </div>
+ <div class="mt-5 text-white mx-5 text-justify"><div class="px-4" style="line-height:2rem;">
+     <h4 style="text-indent:100px;"> 3. When i want to be refresh  :-</h4>
+                                    <h5 style="margin-left:320px;">  Go out side, where no one are present and sit there and think about own past and take breath deeply. </h5>
+ </div>
+ </div>
+  <div class="mt-5 text-white mx-5 text-justify"><div class="px-4" style="line-height:2rem;">
+     <h4 style="text-indent:100px;"> 4. When i have a lot of time to spend beside job like sunday :-</h4>
+                                 <h5 style="margin-left:320px;"> Talk to some close friend , Watch movie and goes some beautyfull place to walk.</h5>
+  </div>
+   <div class="mt-5 text-white mx-5 text-justify">
+     <h3> <b class="text-white"> Inspired By :-  </b> </h3> </br>
+           <div class="px-4" style="line-height:2rem;">
+            <h5 style="text-indent:100px;"> (a) In the sense of humanity i am inspired by <b class="text-warning"> Iswar chandra Vidyasagar </b> since 4th class </h5>  </br>
+            <h5 style="text-indent:100px;"> (a) In the sense of action perform i am inspired by <b class="text-warning"> Elon Musk </b> because this person always work on dream and always think about the things which is only dreamy for other but he make it possible. </h5>
+            </div>
+ </div>
+ <div class="text-center">
+  <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+  <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+ </div>
+</div>
+{% endblock content %}

@@ -25,5 +25,5 @@ urlpatterns = [
     path('project/', views.project, name="project"),
     path('softskill/', views.softskill, name="softskill"),
     path('serv/', include('serv.urls')),
-    path('edu/', include('edu.urls')),
+    path('edu/', include('edu.urls'))
 ]

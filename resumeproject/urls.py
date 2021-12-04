@@ -19,9 +19,11 @@ from core import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
+    path('mystatus/', views.status, name="status"),
     path('contact/', views.contact, name="contact"),
     path('qualification/', views.qualification, name="qualification"),
     path('language/', views.language, name="language"),
+    path('academic/', views.academic, name="academic"),
     path('project/', views.project, name="project"),
     path('softskill/', views.softskill, name="softskill"),
     path('serv/', include('serv.urls')),

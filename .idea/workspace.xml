@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a1a224-2475-42ad-9cca-26cb8f013f88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/templates/core/accadmic_skill.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/emp.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/mystatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/technichal_skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/qualification.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/qualification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/softskill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/softskill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu/templates/edu/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumeproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resumeproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/templates/serv/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/serv/templates/serv/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +41,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/static/core/images" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\StuMarPre" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\core" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\StuMarPre\static\module" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\StuMarPre" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638618005169</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all file update at 04/12/2021">
+      <created>1638619307137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638619307137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +139,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/resumeproject/urls.py</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

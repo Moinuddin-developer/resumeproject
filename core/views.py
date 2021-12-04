@@ -15,7 +15,11 @@ def qualification(request):
 
 def language(request):
   context = {'language': 'active'}
-  return render(request, 'core/language.html', context)
+  return render(request, 'core/technichal_skill.html', context)
+
+def academic(request):
+  context = {'academic': 'active'}
+  return render(request, 'core/accadmic_skill.html', context)
 
 def project(request):
   context = {'project': 'active'}
@@ -25,6 +29,6 @@ def softskill(request):
   context = {'softskill': 'active'}
   return render(request, 'core/softskill.html', context)
 
-def emp(request):
-  context = {'emp': 'active'}
-  return render(request, 'core/emp.html', context)
+def status(request):
+  context = {'status': 'active'}
+  return render(request, 'core/mystatus.html', context)

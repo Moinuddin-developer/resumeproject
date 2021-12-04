@@ -2,21 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a1a224-2475-42ad-9cca-26cb8f013f88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/templates/core/accadmic_skill.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/emoji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img18.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img21.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img28.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img29.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img31.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img32.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img34.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img35.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img36.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img37.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img38.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img40.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/img9.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/emp.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/mystatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/technichal_skill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/qualification.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/qualification.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/softskill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/softskill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu/templates/edu/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/skill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resumeproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resumeproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv/templates/serv/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/serv/templates/serv/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/mystatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/mystatus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +64,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1e829iuTxfMARdTPCHUgcrHzD0P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -114,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638619307137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all file update at 04/12/2021">
+      <created>1638641548084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638641548084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

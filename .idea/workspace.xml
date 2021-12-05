@@ -20,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1e829iuTxfMARdTPCHUgcrHzD0P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -128,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638679825328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="all file update at 05/12/2021">
+      <created>1638681219603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638681219603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="all file update at 05/12/2021 at 10:47">
+      <created>1638681409078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638681409078</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +162,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all file update at 04/12/2021" />
     <MESSAGE value="all file update at 05/12/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="all file update at 05/12/2021" />
+    <MESSAGE value="all file update at 05/12/2021 at 10:47" />
+    <option name="LAST_COMMIT_MESSAGE" value="all file update at 05/12/2021 at 10:47" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

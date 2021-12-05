@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6a1a224-2475-42ad-9cca-26cb8f013f88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/core/images/emoji.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/core/images/img17.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/mystatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/mystatus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638644810882</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all file update at 05/12/2021">
+      <created>1638679767985</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638679767985</updated>
+    </task>
+    <task id="LOCAL-00006" summary="all file update at 05/12/2021">
+      <created>1638679825328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638679825328</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all file update at 04/12/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="all file update at 04/12/2021" />
+    <MESSAGE value="all file update at 05/12/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="all file update at 05/12/2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

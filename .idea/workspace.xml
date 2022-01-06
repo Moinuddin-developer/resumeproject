@@ -2,7 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a1a224-2475-42ad-9cca-26cb8f013f88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/covidVaimg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro1img/va9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro2img/cd9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/pro3img/ar9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/Project/Covid19Death.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/Project/Covid19Vacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/Project/aireline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img20.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img20.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img21.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img21.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img22.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img22.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img23.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img24.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img24.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img25.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img25.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img26.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img26.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img27.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img27.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img28.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img28.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img29.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img29.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img30.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img30.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img31.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img31.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img32.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img32.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img33.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img33.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img34.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img34.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img35.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img35.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img36.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img36.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img37.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img37.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img38.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img38.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img39.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img39.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img40.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img40.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img6.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img7.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img8.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/img9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/img9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/mypic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/status/mypic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/accadmic_skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/accadmic_skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/mystatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/mystatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/qualification.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/qualification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/softskill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/softskill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/technichal_skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/technichal_skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu/templates/edu/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumeproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resumeproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/templates/serv/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/serv/templates/serv/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +138,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1e829iuTxfMARdTPCHUgcrHzD0P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,17 +145,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/static/core/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/static/core/images/pro3img" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\status" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\Project" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\resumeapp" />
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\StuMarPre\static\module" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro3img" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro2img" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro1img" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\resumeapp" />
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\StuMarPre" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,7 +175,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.apps">
+    <configuration name="apps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="resumeproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resumeapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resumeapp/apps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="resumeproject" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="resumeproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +218,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.apps" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638681409078</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="all file update at 05/12/2021 at 4:52">
+      <created>1638703359984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638703359984</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +318,8 @@
     <MESSAGE value="all file update at 04/12/2021" />
     <MESSAGE value="all file update at 05/12/2021" />
     <MESSAGE value="all file update at 05/12/2021 at 10:47" />
-    <option name="LAST_COMMIT_MESSAGE" value="all file update at 05/12/2021 at 10:47" />
+    <MESSAGE value="all file update at 05/12/2021 at 4:52" />
+    <option name="LAST_COMMIT_MESSAGE" value="all file update at 05/12/2021 at 4:52" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

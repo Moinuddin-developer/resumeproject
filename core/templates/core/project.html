@@ -1,17 +1,410 @@
 {% extends 'core/base.html' %}
+{% load static %}
+{% block corecss %}
+<style>
+.p-table th,
+.p-table td {
+    vertical-align: middle !important;
+}
+.p-team img {
+    width: 100px;
+    height:100px;
+    border-radius: 4px;
+}
+.p-team p {
+    font-size:12px;
+    color:white;
+    border-radius: 4px;
+}
+.p-name a {
+    font-size:14px;
+    color:white;
+    /*font-weight:bold;*/
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.p-details .bio-row p span {
+    width: auto;
+}
+
+.p-details .bio-row p span.bold {
+    width: 100px;
+}
+
+.p-team a {
+    display: inline-block;
+}
+
+.project-heading {
+    font-size: 20px;
+}
+
+.mtop20 {
+    margin-top: 20px;
+}
+
+.p-files li a {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.p-files li i {
+    padding-right: 10px;
+    width: 20px;
+}
+
+.p-tag-list li {
+    display: inline-block;
+    margin:0 5px 7px 0;
+}
+
+.p-tag-list li a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    color:#797979;
+    border-radius: 4px;
+    font-size:12px;
+}
+
+.p-tag-list li a:hover {
+    background: #ff6c60;
+    border-color: #ff6c60;
+    color:#fff;
+}
+
+.m-thumb img {
+    width: 100%;
+    border:1px solid #ddd;
+}
+
+
+
+
+.btn-default {
+    background-color: #bec3c7;
+    border-color: #bec3c7;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #b0b5b9;
+    border-color: #b0b5b9;
+    color: #fff;
+}
+
+.btn-primary ,
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary.disabled.active,
+.btn-primary.active[disabled]{
+    background-color: #41cac0;
+    border-color: #41cac0;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary.disabled.active,
+.btn-primary.active[disabled]{
+    background-color: #39b2a9;
+    border-color: #39b2a9;
+}
+</style>
+{% endblock corecss %}
 {% block content %}
 <div class="container mt-5">
   <h1 class="text-warning mb-5 border-bottom">Project On Which I Work</h1>
   <div class="row text-white mb-5">
-    <p class="ml-2">
-      All Project Under Process
-    </p>
+    <div class="container">
+        <section class="panel">
+                  <header class="panel-heading">
+                      All projects List
+                  </header>
+                  <table class="table table-hover p-table">
+                      <thead style="color:white;">
+                      <tr>
+                          <th>Project Name</th>
+                          <th>Project Maker</th>
+                          <th>Tools/language</th>
+                          <th>Project Category</th>
+                          <th>Project Status</th>
+                          <th>Custom</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Self Website</a>
+                              <br>
+                              <small>Created 11.07.2021</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                         </td>
+                          <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="http://armanjames.pythonanywhere.com" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Student Marks Prediction</a>
+                              <br>
+                              <small>Created 11.08.20201</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python, flask, Pandas, Numpy, scikit-learn, gunicorn, Html, Css </p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Machine Learning</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="https://students-marks-prediction.herokuapp.com/" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Covid19 Vaccination Report and Dashboard</a>
+                              <br>
+                              <small>Created 2.10.2021</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p> Advance Excel and Tableau ( Data get from kaggle)</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Data Analysis</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="{% url 'ProcVacc' %}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Covid19 Death Report and Dashboard</a>
+                              <br>
+                              <small>Created 27.11.2014</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Advance Excel and Tableau ( Data get from kaggle)</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Data Analysis</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="{% url 'Procodeath' %}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">AireLine Travel Dashboard</a>
+                              <br>
+                              <small>Created 21.10.2014</small>
+                          </td>
+                          <td class="p-team">
+                            <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="{% url 'aireline' %}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Directory &amp; listing</a>
+                              <br>
+                              <small>Created 2.09.2014</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">New Dashboard BS3</a>
+                              <br>
+                              <small>Created 27.11.2014</small>
+                          </td>
+                          <td class="p-team">
+                             <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Creative Portfolio</a>
+                              <br>
+                              <small>Created 21.10.2014</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Directory &amp; listing</a>
+                              <br>
+                              <small>Created 2.09.2014</small>
+                          </td>
+                          <td class="p-team">
+                             <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">New Dashboard BS3</a>
+                              <br>
+                              <small>Created 27.11.2014</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                          <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Creative Portfolio</a>
+                              <br>
+                              <small>Created 21.10.2014</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="project_details.html">Directory &amp; listing</a>
+                              <br>
+                              <small>Created 2.09.2014</small>
+                          </td>
+                          <td class="p-team">
+                              <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Python,Django,Html,Css,Bootstrap and Sql</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Web Development</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">Active</span>
+                          </td>
+                          <td>
+                              <a href="project_details.html" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </section>
+</div>
   </div>
 </div>
-<div class="text-center">
-  <a href="#" target="_blank"><i class="fab fa-twitter i-color mr-3"></i></a>
-  <a href="#" target="_blank"><i class="fab fa-facebook-f i-color mr-3"></i></a>
-  <a href="#" target="_blank"><i class="fab fa-instagram i-color mr-3"></i></a>
-  <a href="#" target="_blank"><i class="fab fa-dribbble i-color"></i></a>
 </div>
 {% endblock content %}

@@ -1,51 +1,28 @@
 {% extends 'core/base.html' %}
+{% block corecss %}
+ <style>
+     .well{
+          background-color:grey;
+          border:2px solid white;
+          }
+ </style>
+ {% endblock corecss %}
 {% block content %}
-<br class="container mt-5">
-  <h1 class="text-warning mb-5 border-bottom"> Educational Qualification </h1>
- <div class="container mt-5">
-     <h2 style=" color:white;"> 1. <u> B.tech (computer science and engineering ) </u> :- </h2>
-<h3 style=" color:white;margin-left:20px;"> > Institute :- Adesh Institute Of Technology Gharuan Mohali, Punjab </br>  > University :- Punjab Technichal University Jalandhar, Punjab </br>  > session :- 2017-2021 </h3>
-     <h3 style=" color:white; margin-left:20px;"> > total CGPA :- 7.60 </br> > In Percentage :- 72.2
-<table class="container mt-5" style="font-size:22px; color:white; border-collapse: separated; border-spacing: 25px 30px; border: 8px; margin-left:20px; margin-right:50px;">
-   <th style=" border: 2px solid white;"> 1st sem.</th>
-    <th style=" border: 2px solid white;"> 2nd sem.</th>
-    <th style=" border: 2px solid white;"> 3rd sem.</th>
-    <th style=" border: 2px solid white;"> 4th sem.</th>
-    <th style=" border: 2px solid white;"> 5th sem.</th>
-    <th style=" border: 2px solid white;"> 6th sem.</th>
-    <th style=" border: 2px solid white;"> 7th sem.</th>
-    <th style=" border: 2px solid white;"> 8th sem.</th>
- <tr>
-    <td style=" border: 2px solid white;"> 7.46 </td>
-    <td style=" border: 2px solid white;"> 6.93 </td>
-    <td style=" border: 2px solid white;"> 7.58 </td>
-    <td style=" border: 2px solid white;"> 7.76 </td>
-    <td style=" border: 2px solid white;"> 6.80 </td>
-    <td style=" border: 2px solid white;"> 7.76 </td>
-    <td style=" border: 2px solid white;"> 8.05</td>
-    <td style=" border: 2px solid white;"> 9.00</td>
-</tr>
-
-</table>
-</div>
+<div class="container mt-5 text-white">
+    <h1 class="text-warning mb-5 border-bottom"> Educational Qualification </h1>
+    <div class="container well well-lg text-white mr-5 pt-2">
+        <h2 style=" color:white;"> 1. <u> B.tech (computer science and engineering ) </u> :- </h2> </br>
+        <h3> Institute &nbsp; &nbsp; &nbsp; &nbsp; :- &nbsp; Adesh Institute Of Technology Gharuan Mohali, Punjab </br></br> University &nbsp; &nbsp; &nbsp;:- &nbsp; Punjab Technichal University Jalandhar, Punjab </br></br>Session &nbsp; &nbsp; &nbsp; &nbsp; :- &nbsp; 2017-2021 </h3></br>
+        <h3> Total CGPA &nbsp; :- &nbsp; 7.60 </br></br>In Percent &nbsp;&nbsp;&nbsp;&nbsp;:- &nbsp; 72.2 </br></br>
+    </div>
 </br> </br>
-<div>
-    <h2 style=" color:white;"> 2. <u>12th (from science stream) </u> :- </h2>
-<h3 style=" color:white; margin-left:20px;"> > Board :- BSEB (Bihar board Patna) </br> > pass out in :- 2017 </br> >  Marks :- 312 out of 500 </br> > Percentage :- 62.4</h3>
-</div></br> </br>
-<div>
-    <h2 style=" color:white;">3. <u> 10th (Matriculation) </u> :- </h2>
-<h3 style=" color:white; margin-left:20px;"> > Board :- BSEB (Bihar board Patna) </br> > pass out in :- 2015 </br> > Marks :- 350 out of 500 </br> > Percentage :- 70 </h3>
-</div>
-<div class="text-center">
-  <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
-  <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
- </div>
-</div>
-<div class="text-center">
-  <a href="#" target="_blank"><i class="fab fa-twitter i-color mr-3"></i></a>
-  <a href="#" target="_blank"><i class="fab fa-facebook-f i-color mr-3"></i></a>
-  <a href="#" target="_blank"><i class="fab fa-instagram i-color mr-3"></i></a>
-  <a href="#" target="_blank"><i class="fab fa-dribbble i-color"></i></a>
+    <div class="container well well-lg text-white mr-5 pt-2">
+        <h2> 2. <u>12th (Science Stream) </u> :- </h2></br>
+         <h3> Board &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:- &nbsp; BSEB (Bihar board Patna) </br></br> pass out in &nbsp;&nbsp;&nbsp; :- &nbsp; 2017 </br></br> Marks &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :- &nbsp; 312 out of 500 </br></br>Percentage &nbsp;&nbsp; :- &nbsp; 62.4</h3></br>
+    </div></br> </br>
+    <div class="container well well-lg text-white mr-5 pt-2">
+         <h2>3. <u> 10th (Matriculation) </u> :- </h2></br>
+         <h3> Board &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :- &nbsp; BSEB (Bihar board Patna) </br></br> pass out in &nbsp; &nbsp; &nbsp; &nbsp;:- &nbsp; 2015 </br></br>  Marks &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:- &nbsp; 350 out of 500 </br></br>Percentage &nbsp; &nbsp; &nbsp; :- &nbsp; 70 </h3></br>
+    </div>
 </div>
 {% endblock content %}

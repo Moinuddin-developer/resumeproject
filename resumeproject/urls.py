@@ -25,6 +25,9 @@ urlpatterns = [
     path('language/', views.language, name="language"),
     path('academic/', views.academic, name="academic"),
     path('project/', views.project, name="project"),
+    path('Vaccination/', views.ProcVacc, name="ProcVacc"),
+    path('Covid-19_Death/', views.Procodeath, name="Procodeath"),
+    path('AireLine/', views.aireline, name="aireline"),
     path('softskill/', views.softskill, name="softskill"),
     path('serv/', include('serv.urls')),
     path('edu/', include('edu.urls'))

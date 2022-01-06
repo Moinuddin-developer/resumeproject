@@ -1,21 +1,41 @@
 {% load static %}
-<div class="border-right border-warning h-100">
- <div class="text-center">
-  <img src="{% static 'core/images/mypic.jpg' %}" alt="ProfilePic" class="img-fluid rounded-circle mt-5" width="100px" heght="100px">
-  <h3 class="text-white mt-3 st-font"> Md Moinuddin </h3>
+{% block corecss %}
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+</style>
+{% endblock corecss %}
+<div class=" w3-margin-top" style="max-width:1400px;">
+    <div class="w3-row-padding">
+    <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4">
+                <div class="w3-display-container">
+                    <img src="{% static 'core/images/mypic.jpg' %}" style="width:100%" alt="ProfilePic" class="img-fluid rounded-circle mt-5">
+                    <div style="font-size:30px; color:white;" class="w3-display-bottomleft w3-container text-center">
+                        <h5>MD MOINUDDIN</h5>
+                    </div>
+                </div>
+          </div>
+    </div>
+     <div style="color:white;" class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-small"></i>Data Scientist/Data Analyst/ tableau & PowerBi developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bihar, India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mdm147278@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>6201127940</p>
+     </div>
  </div>
  <hr class="border-light">
- <nav class="nav flex-column text-center">
+ <nav style="color:white;"  class="nav flex-column text-center">
      <a href="{% url 'home' %}" class="nav-link {{home}}">Introduction</a>
-     <a href="{% url 'status' %}" class="nav-link {{status}}"> Some Remembering Things </a>
+     <a href="{% url 'project' %}" class="nav-link {{status}}"> My Project </a>
+     <a href="{% url 'services' %}" class="nav-link {{services}}">Services</a>
      <a href="{% url 'qualification' %}" class="nav-link {{qualification}}"> Educational Details </a>
      <a href="{% url 'skill' %}" class="nav-link {{skill}}"> Technical Skill</a>
      <a href="{% url 'academic' %}" class="nav-link {{academic}}"> Academic Interest</a>
      <a href="{% url 'office' %}" class="nav-link {{office}}"> Office Skill</a>
      <a href="{% url 'softskill' %}" class="nav-link {{softskill}}"> Soft Skill</a>
-     <a href="{% url 'project' %}" class="nav-link {{project}}"> My Projects </a>
      <a href="{% url 'language' %}" class="nav-link {{language}}"> Languages </a>
-     <a href="{% url 'services' %}" class="nav-link {{services}}">Services</a>
      <a href="{% url 'contact' %}" class="nav-link {{contact}}">Contact</a>
+     <a href="{% url 'status' %}" class="nav-link {{project}}"> Some Remembering Things </a>
  </nav>
 </div>

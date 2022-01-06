@@ -32,3 +32,12 @@ def softskill(request):
 def status(request):
   context = {'status': 'active'}
   return render(request, 'core/mystatus.html', context)
+
+def ProcVacc(request):
+  return render(request, 'Project/Covid19Vacci.html')
+
+def Procodeath(request):
+  return render(request, 'Project/Covid19Death.html')
+
+def aireline(request):
+  return render(request, 'Project/aireline.html')

@@ -13,6 +13,9 @@
  {% endblock corecss %}
 </head>
 <body>
+  <div class="row">
+    {% include 'core/navbar.html' %}
+   </div>
  <div class="container-fluid bg-dark">
   <div class="row">
    <div class="col-sm-3">
@@ -23,8 +26,7 @@
     {% block content %}  {% endblock content %}<br>
     <div class="col-sm-12 border-top border-warning ">
           <div class="text-center">
-             <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
-             <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+             <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Contact</a>
           </div>
           <div class="text-center">
              <a href="#" target="_blank"><i class="fab fa-twitter i-color mr-3"></i></a>

@@ -27,6 +27,7 @@ urlpatterns = [
     path('project/', views.project, name="project"),
     path('Vaccination/', views.ProcVacc, name="ProcVacc"),
     path('Covid-19_Death/', views.Procodeath, name="Procodeath"),
+    path('hotel/', views.hotelrevenue, name="hotelrevenue"),
     path('AireLine/', views.aireline, name="aireline"),
     path('softskill/', views.softskill, name="softskill"),
     path('serv/', include('serv.urls')),

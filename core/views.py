@@ -15,7 +15,7 @@ def qualification(request):
 
 def language(request):
   context = {'language': 'active'}
-  return render(request, 'core/technichal_skill.html', context)
+  return render(request, 'core/language_skill.html', context)
 
 def academic(request):
   context = {'academic': 'active'}
@@ -38,6 +38,9 @@ def ProcVacc(request):
 
 def Procodeath(request):
   return render(request, 'Project/Covid19Death.html')
+
+def hotelrevenue(request):
+  return render(request, 'Project/HotelRevenue.html')
 
 def aireline(request):
   return render(request, 'Project/aireline.html')

@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a1a224-2475-42ad-9cca-26cb8f013f88" name="Default Changelist" comment="">
+    <list default="true" id="f6a1a224-2475-42ad-9cca-26cb8f013f88" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/static/core/images/hotel/img9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/Project/HotelRevenue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/resumeproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resumeproject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/status/img2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/core/images/status/mypic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/images/mypic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/mystatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/mystatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/qualification.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/qualification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/templates/core/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/softskill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/softskill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/technichal_skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/language_skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/officeSkill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu/templates/edu/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/edu/templates/edu/skill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumeproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/resumeproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv/templates/serv/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/serv/templates/serv/services.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,41 +60,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1e829iuTxfMARdTPCHUgcrHzD0P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/static/core/images/pro3img" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/templates/core" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\core" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\hotel" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\Project" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro3img" />
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro2img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images" />
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\status" />
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\templates\Project" />
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\resumeapp" />
       <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\StuMarPre\static\module" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro3img" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro2img" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images\pro1img" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\resumeapp" />
-      <recent name="C:\Users\mdm14\PycharmProjects\resumeproject\core\static\core\images" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.apps">
     <configuration name="apps" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -108,6 +143,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -196,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641479949320</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1641558910015</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641558910015</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,9 +247,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -218,7 +259,8 @@
     <MESSAGE value="all file update at 05/12/2021 at 10:47" />
     <MESSAGE value="all file update at 05/12/2021 at 4:52" />
     <MESSAGE value="all file update at 06/01/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="all file update at 06/01/2022" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

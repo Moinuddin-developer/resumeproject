@@ -2,6 +2,20 @@
 {% load static %}
 {% block corecss %}
 <style>
+a.nav-link {
+  color: whitesmoke;
+}
+
+a.nav-link:hover {
+  color: black;
+  background-color: #e9cd79;
+}
+
+a.nav-link.active {
+  color: black;
+  background-color: #ffc107;
+  font-weight: bold;
+}
 .p-table th,
 .p-table td {
     vertical-align: middle !important;
@@ -112,6 +126,8 @@
     background-color: #39b2a9;
     border-color: #39b2a9;
 }
+
+<link rel="stylesheet" href="{% static 'core/css/core.css' %}">
 </style>
 {% endblock corecss %}
 {% block content %}
@@ -137,7 +153,7 @@
                       <tbody>
                       <tr>
                           <td class="p-name">
-                              <a href="project_details.html">Self Website</a>
+                              <a href="#">Own Website</a>
                               <br>
                              <!---  <small>Created 11.07.2021</small> --->
                           </td>
@@ -155,12 +171,12 @@
                               <span class="label label-primary btn btn-danger btn-xs">Active</span>
                           </td>
                           <td>
-                              <a href="http://armanjames.pythonanywhere.com" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                              <a href="http://armanjames.pythonanywhere.com"  target="_blank" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                           </td>
                       </tr>
                       <tr>
                           <td class="p-name">
-                              <a href="project_details.html">Student Marks Prediction</a>
+                              <a href="#">Student Marks Prediction</a>
                               <br>
                              <!---  <small>Created 11.08.20201</small> --->
                           </td>
@@ -177,12 +193,12 @@
                               <span class="label label-primary btn btn-danger btn-xs">Active</span>
                           </td>
                           <td>
-                              <a href="https://students-marks-prediction.herokuapp.com/" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                              <a href="https://students-marks-prediction.herokuapp.com/"  target="_blank"  class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                           </td>
                       </tr>
                       <tr>
                           <td class="p-name">
-                              <a href="project_details.html">Covid19 Vaccination Report and Dashboard</a>
+                              <a href="#">Covid19 Vaccination Report and Dashboard</a>
                               <br>
                              <!---  <small>Created 2.10.2021</small> --->
                           </td>
@@ -199,12 +215,12 @@
                               <span class="label label-primary btn btn-danger btn-xs">Active</span>
                           </td>
                           <td>
-                              <a href="{% url 'ProcVacc' %}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                              <a href="{% url 'ProcVacc' %}"  target="_blank" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                           </td>
                       </tr>
                       <tr>
                           <td class="p-name">
-                              <a href="project_details.html">Covid19 Death Report and Dashboard</a>
+                              <a href="#">Covid19 Death Report and Dashboard</a>
                               <br>
                             <!---   <small>Created 27.11.2014</small> --->
                           </td>
@@ -221,12 +237,12 @@
                               <span class="label label-primary btn btn-danger btn-xs">Active</span>
                           </td>
                           <td>
-                              <a href="{% url 'Procodeath' %}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                              <a href="{% url 'Procodeath' %}"  target="_blank" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                           </td>
                       </tr>
                       <tr>
                           <td class="p-name">
-                              <a href="project_details.html">AireLine Travel Dashboard</a>
+                              <a href="#">AireLine Travel Dashboard</a>
                               <br>
                             <!---  <small>Created 21.10.2014</small> --->
                           </td>
@@ -234,7 +250,7 @@
                             <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
                           </td>
                            <td class="p-team">
-                              <p>Advance Excel and Tableau ( Data get from kaggle)</p>
+                              <p>Advance Excel , SQL and PowerBi ( Data get from kaggle)</p>
                           </td>
                          <td>
                               <span class="label label-warning btn btn-warning btn-xs">Data Analysis</span>
@@ -243,7 +259,29 @@
                               <span class="label label-primary btn btn-danger btn-xs">Active</span>
                           </td>
                           <td>
-                              <a href="{% url 'aireline' %}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                              <a href="{% url 'hotelrevenue' %}"  target="_blank" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="p-name">
+                              <a href="#">Hotel Revenue Project on Country wise</a>
+                              <br>
+                            <!---  <small>Created 21.10.2014</small> --->
+                          </td>
+                          <td class="p-team">
+                            <a href="#"><img alt="image" class="" src="{% static 'core/images/mypic.jpg' %}"></a>
+                          </td>
+                           <td class="p-team">
+                              <p>Advance Excel , SQL server and PowerBi ( Data get from kaggle)</p>
+                          </td>
+                         <td>
+                              <span class="label label-warning btn btn-warning btn-xs">Data Analysis</span>
+                          </td>
+                          <td>
+                              <span class="label label-primary btn btn-danger btn-xs">completed</span>
+                          </td>
+                          <td>
+                              <a href="{% url 'hotelrevenue' %}"  target="_blank" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                           </td>
                       </tr>
                       </tbody>
